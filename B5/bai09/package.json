@@ -1,0 +1,16 @@
+{
+  "name": "bai09",
+  "version": "1.0.0",
+  "description": "Bai 9 - Xoa du lieu co dieu kien trong MongoDB",
+  "main": "bai09.js",
+  "scripts": {
+    "start": "node bai09.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^7.9.1"
+  }
+}

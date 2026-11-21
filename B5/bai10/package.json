@@ -1,0 +1,16 @@
+{
+  "name": "bai10",
+  "version": "1.0.0",
+  "description": "Bai 10 - Lien ket hai collection bang $lookup",
+  "main": "bai10.js",
+  "scripts": {
+    "start": "node bai10.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^7.9.1"
+  }
+}

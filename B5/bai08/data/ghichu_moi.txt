@@ -1,0 +1,4 @@
+Hôm nay mình học module fs trong NodeJS.
+fs.promises giúp viết code gọn hơn với async/await.
+Mình đã tạo, đổi tên, đọc và xóa tập tin thành công.
+Thời gian ghi: 14:15:19 21/11/2026

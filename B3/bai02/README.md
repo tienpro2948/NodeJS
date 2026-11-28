@@ -1,6 +1,6 @@
 # Bt02 — Tạo Web Server với Node.js
 
-Sinh viên: Nguyễn Trần Nhật Tiến | Mã SV: CDCNTT18B23 | Lớp: CDCNTT18B
+Sinh viên: Nguyễn Anh Kiệt | Mã SV: CDCNTT18B14 | Lớp: CDCNTT18B
 
 ## 1. Mô tả
 Dùng module http tạo Web Server tại cổng 3000. Đường dẫn / hiển thị lời chào

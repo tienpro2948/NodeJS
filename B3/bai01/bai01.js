@@ -12,7 +12,7 @@ class SinhVien {
 }
 
 const danhSach = [
-  new SinhVien("SV01", "Nguyễn Anh Kiệt", 20, 8.5),
+  new SinhVien("SV01", "Nguyễn Trần Nhật Tiến", 20, 8.5),
   new SinhVien("SV02", "Nguyễn Thành Danh", 21, 4.0),
   new SinhVien("SV03", "Lê Ngọc Khôi", 19, 6.5),
   new SinhVien("SV04", "Phạm Ngọc Hiếu", 22, 3.5),

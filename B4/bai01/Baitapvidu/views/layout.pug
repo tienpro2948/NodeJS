@@ -1,0 +1,22 @@
+doctype html
+html(lang="vi")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title #{title} | Gió Biển Coffee
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Lora:ital,wght@0,600;0,700;1,500&display=swap")
+    link(rel="stylesheet" href="/styles.css")
+  body
+    header.top
+      a.logo(href="/") Gió Biển
+      nav
+        a(href="/") Trang chủ
+        a(href="/menu") Thực đơn
+        a(href="/order") Gọi món
+    svg.wave(viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true")
+      path(d="M0 30 C150 60 300 0 450 30 C600 60 750 0 900 30 C1050 60 1150 10 1200 30 L1200 0 L0 0 Z")
+    main
+      block content
+    footer
+      p Gió Biển Coffee, Nha Trang. Bài tập Express MVC.

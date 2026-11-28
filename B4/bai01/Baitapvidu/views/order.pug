@@ -1,0 +1,14 @@
+extends layout
+block content
+  h1 Gọi món
+  p Nhập số lượng cho từng món (để 0 nếu không gọi).
+  form.order(action="/order" method="post")
+    each l in loaiList
+      h2 #{l.ten}
+      each m in getByLoai(l.key)
+        .row
+          label(for="m" + m.id)
+            | #{m.ten}
+            small #{vnd(m.gia)}
+          input(id="m" + m.id type="number" name="qty[" + m.id + "]" value="0" min="0" max="50")
+    button.btn(type="submit") Tính hóa đơn

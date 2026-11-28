@@ -1,0 +1,18 @@
+extends layout
+block content
+  h1 Thực đơn
+  .filter
+    a(href="/menu" class=!chon ? 'on' : '') Tất cả
+    each l in loaiList
+      a(href="/menu?loai=" + l.key class=chon === l.key ? 'on' : '') #{l.ten}
+  if danhSach.length === 0
+    p Không có nhóm món này.
+  each nhom in danhSach
+    h2 #{nhom.ten}
+    ul.menu-list
+      each m in nhom.mon
+        li
+          span.ten #{m.ten}
+          span.dots
+          span.gia #{vnd(m.gia)}
+          small #{m.mota}

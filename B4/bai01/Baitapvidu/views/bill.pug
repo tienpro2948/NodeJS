@@ -1,0 +1,27 @@
+extends layout
+block content
+  h1 Hóa đơn của bạn
+  table.bill
+    thead
+      tr
+        th Món
+        th SL
+        th Thành tiền
+    tbody
+      each d in hoaDon.dong
+        tr
+          td #{d.ten}
+          td #{d.sl}
+          td #{vnd(d.thanhTien)}
+    tfoot
+      tr
+        td(colspan="2") Tạm tính
+        td #{vnd(hoaDon.tamTinh)}
+      if hoaDon.giam > 0
+        tr
+          td(colspan="2") Giảm 10%
+          td -#{vnd(hoaDon.giam)}
+      tr.tong
+        td(colspan="2") Tổng cộng
+        td #{vnd(hoaDon.tong)}
+  a.btn(href="/order") Gọi đơn khác

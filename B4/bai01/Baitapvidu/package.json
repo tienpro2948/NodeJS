@@ -1,0 +1,13 @@
+{
+  "name": "baitapvidu",
+  "version": "1.0.0",
+  "description": "Quán cà phê Gió Biển - ứng dụng Express theo mô hình MVC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "pug": "^3.0.4"
+  }
+}

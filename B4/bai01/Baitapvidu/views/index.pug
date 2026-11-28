@@ -1,0 +1,16 @@
+extends layout
+block content
+  section.hero
+    h1 Cà phê uống nghe tiếng sóng
+    p Quán nhỏ gần biển, pha tại chỗ, giá học sinh sinh viên. Chọn món và xem hóa đơn ngay trên web.
+    a.btn(href="/order") Gọi món ngay
+  section
+    h2 Món được gọi nhiều
+    ul.menu-list
+      each m in noiBat
+        li
+          span.ten #{m.ten}
+          span.dots
+          span.gia #{vnd(m.gia)}
+          small #{m.mota}
+    p.note Đơn từ 150.000 ₫ được giảm 10%.
